@@ -121,3 +121,10 @@ dmypy.json
 .azure/
 
 staticfiles/
+
+# Local environment files (may contain credentials)
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
